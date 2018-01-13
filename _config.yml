@@ -381,7 +381,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: nesoy
+  shortname: githubdevpage 
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -427,7 +427,7 @@ changyan:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-89701804-1
+google_analytics:
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
