@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Develop Blog
+title: Developer Blog
 subtitle: Like Him    # TODO: change subtitle
 description: Software Developer
-author: 박지원
+author: Jiwon Park
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
 date_format: '%Y-%m-%d'
