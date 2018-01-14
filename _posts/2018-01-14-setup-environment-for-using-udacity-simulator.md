@@ -27,17 +27,15 @@ date: 2018-01-14
 > 
 > [Ref: Git LFS(Large file storage) 사용해보기](https://devlog.github.io/git-lfs/2015/12/09/git-lfs.html)
 
-* [git-lfs release](https://github.com/git-lfs/git-lfs/releases/)에 들어가서 `32bit 컴퓨터라면 Linux 386`을, `64bit 컴퓨터라면 Linux AMD64`를 선택해 다운로드한다
+1. [git-lfs release](https://github.com/git-lfs/git-lfs/releases/)에 들어가서 `32bit 컴퓨터라면 Linux 386`을, `64bit 컴퓨터라면 Linux AMD64`를 선택해 다운로드한다
 
-* 압축을 풀고 Downloads 디렉토리로 들어간다
-
+2. 압축을 풀고 Downloads 디렉토리로 들어간다
 ```python
 cd ~/Downloads/git-lfs-2.3.4/
 # Warning: git-lfs 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다
 ```
 
-* install.sh을 실행하여 설치를 진행한다
-
+3. install.sh을 실행하여 설치를 진행한다
 ```
 sudo ./install.sh
 ```
@@ -46,19 +44,16 @@ sudo ./install.sh
 > Unity는 게임 개발을 위한 엔진이다. Udacity Simulator가 Unity로 만들어졌기 때문에 Simulator를 수정하고 빌드하려면 Unity를 설치해야 한다.
 
 1. gdebi를 설치한다
-
 ```
 sudo apt install gdebi
 ```
 
 2. Unity 설치파일을 다운로드한다
-
 ```
 wget http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
 ```
 
 3. 설치를 진행한다
-
 ```
 sudo gdebi unity-editor_amd64-2017.2.0f3.deb
 ```
@@ -67,13 +62,11 @@ sudo gdebi unity-editor_amd64-2017.2.0f3.deb
 > github로부터 Udacity Simulator 코드를 받아야 한다.
 
 1. git clone을 통해 전체 프로젝트를 받는다
-
 ```
 git clone https://github.com/udacity/self-driving-car-sim 
 ```
 
 2. git lfs를 이용하여 대용량 파일을 추가로 받는다
-
 ```
 cd self-driving-car-sim/
 git lfs pull
