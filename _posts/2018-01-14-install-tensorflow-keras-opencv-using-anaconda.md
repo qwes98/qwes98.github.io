@@ -36,18 +36,12 @@ chmod a+x Anaconda3-5.0.1Linux-x86_64.sh
 #Warning: Anaconda의 Release 버전, 사용자의 플랫폼에 따라 파일의 이름이 다를 수 있다
 ```
 
-4. test
+4. 쉘 스크립트를 실행시킨다
 ```
 ./Anaconda3-5.0.1Linux-x86_64.sh
 
 #Warning: 설치 마지막에 yes를 입력해 주어야 한다. 아래는 설치 마지막 콘솔 output이다
 
-Output
-...
-installation finished.
-Do you wish the installer to prepend the Anaconda3 install location
-to PATH in your /home/sammy/.bashrc ? [yes|no]
-[no] >>> 
 ```
 
 ## Step 2: 환경설정 파일 다운로드 및 conda 실행
