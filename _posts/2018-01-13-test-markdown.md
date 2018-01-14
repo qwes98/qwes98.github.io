@@ -52,3 +52,15 @@ cv2.__version__
 
 1. 넘버링 1
 2. 넘버링 2
+
+<aside class="notice">
+notice - blue
+</aside>
+
+<aside class="warning">
+warning - red
+</aside>
+
+<aside class="success">
+success - green
+</aside>
