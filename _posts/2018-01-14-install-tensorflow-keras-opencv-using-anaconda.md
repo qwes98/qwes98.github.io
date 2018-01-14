@@ -39,9 +39,7 @@ chmod a+x Anaconda3-5.0.1Linux-x86_64.sh
 4. 쉘 스크립트를 실행시킨다
 ```
 ./Anaconda3-5.0.1Linux-x86_64.sh
-```
 
-```
 #Warning: 설치 마지막에 yes를 입력해 주어야 한다. 아래는 설치 마지막 콘솔 output이다
 
 Output
@@ -73,7 +71,7 @@ conda env create -f environment.yml
 # Use TensorFlow with GPU
 conda env create -f environment-gpu.yml
 ```
-
+s
 ## Step 3: 가상환경 실행
 > 설치는 모두 완료되었다. Tensorflow, Keras, Opencv를 사용하기 위해서는 가상환경을 실행시켜야 한다.
 
