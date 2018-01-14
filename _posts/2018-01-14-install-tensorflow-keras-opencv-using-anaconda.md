@@ -31,21 +31,26 @@ cd ~/Downloads/
 ```
 
 3. Anaconda 쉘 스크립트(.sh)의 권한을 변경한다
-```python
-chmod a+x Anaconda3-5.0.1Linux-x86_64.sh
-#Warning: Anaconda의 Release 버전, 사용자의 플랫폼에 따라 파일의 이름이 다를 수 있다
-```
+
+        ```
+        chmod a+x Anaconda3-5.0.1Linux-x86_64.sh
+
+        #Warning: Anaconda의 Release 버전, 사용자의 플랫폼에 따라 파일의 이름이 다를 수 있다
+        ```
 
 4. 쉘 스크립트를 실행시킨다
-```python
-./Anaconda3-5.0.1Linux-x86_64.sh
-#Warning: 설치 마지막에 yes를 입력해 주어야 한다. 아래는 설치 마지막 콘솔 output이다
-Output
-...
-installation finished.
-Do you wish the installer to prepend the Anaconda3 install location to PATH in your /home/sammy/.bashrc ? [yes|no]
-[no] >>> 
-```
+
+        ```
+        ./Anaconda3-5.0.1Linux-x86_64.sh
+
+        #Warning: 설치 마지막에 yes를 입력해 주어야 한다. 아래는 설치 마지막 콘솔 output이다
+
+        Output
+        ...
+        installation finished.
+        Do you wish the installer to prepend the Anaconda3 install location to PATH in your /home/sammy/.bashrc ? [yes|no]
+        [no] >>> 
+        ```
 
 ## Step 2: 환경설정 파일 다운로드 및 conda 실행
 > git을 통해서 yml 확장자를 가진 환경설정 파일을 받을것이다. 그 후 conda 명령어를 통해 라이브러리의 설치를 진행한다.
@@ -61,6 +66,7 @@ cd car-behavioral-cloning/
 ```
 
 3. 자신의 플랫폼 환경에 따라 conda 명령어를 실행한다
+
         ```
         # Use TensorFlow without GPU
         conda env create -f environment.yml
