@@ -30,8 +30,7 @@ date: 2018-01-14
 1. [git-lfs release](https://github.com/git-lfs/git-lfs/releases/)에 들어가서 `32bit 컴퓨터라면 Linux 386`을, `64bit 컴퓨터라면 Linux AMD64`를 선택해 다운로드한다
 
 2. 압축을 풀고 Downloads 디렉토리로 들어간다
-
-```python
+```
 cd ~/Downloads/git-lfs-2.3.4/
 # Warning: git-lfs의 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다
 ```
