@@ -36,7 +36,7 @@ chmod a+x Anaconda3-5.0.1Linux-x86_64.sh
 #Warning: Anaconda의 Release 버전, 사용자의 플랫폼에 따라 파일의 이름이 다를 수 있다
 ```
 
-4. 쉘 스크립트를 실행시킨다
+4. test
 ```
 ./Anaconda3-5.0.1Linux-x86_64.sh
 
