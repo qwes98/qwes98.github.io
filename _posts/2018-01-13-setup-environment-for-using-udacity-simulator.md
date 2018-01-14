@@ -10,22 +10,15 @@ date: 2018-01-14
 ---
 
 # **Introduction**
-
-
 > Udacity에서 작년 초 [Self-Driving Car NanoDegree Course](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)에서 사용한 Simulator이다. 현재는 Github에 **오픈소스**로 공개가 되어 누구든지 사용할 수 있다. [Unity Engine](https://unity3d.com/kr/) 위에서 동작되는 프로그램이므로 Unity 지식이 있다면 자신의 원하는대로 커스터마이즈가 가능하다는 장점이 있다.
+[Ref: Udacity Simulator Github Page](https://github.com/udacity/self-driving-car-sim)
 
-> [Ref: Udacity Simulator Github Page](https://github.com/udacity/self-driving-car-sim)
 ----
-
 # **Environment**
-
-
 > Ubuntu 16.04 LTS
 
 ----
 # **Install & Build**
-
-
 > 이제 우분투에 Unity를 설치하고 Simulator 코드를 받은 후 Build하여 Simulator를 실행시켜보자.
 
 ## Step 1: git lfs 설치
@@ -90,6 +83,7 @@ git lfs pull
 4. 왼쪽 위에 `File > Build Settings`를 눌러 Build Settings로 들어간다
 
 5. 자신의 컴퓨터에 맞게 Target Platform과 Architecture를 선택한 후 `Build`버튼을 누른다
+
 ----
 # **Reference**
 
