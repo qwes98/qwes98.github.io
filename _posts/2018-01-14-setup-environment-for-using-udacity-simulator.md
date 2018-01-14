@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 우분투에서 Udacity Simulator 사용을 위한 환경 구축
-categories: [Simulator]
+categories: [Deep Learning]
 excerpt: " "
 comments: true
 share: true
-tags: [Udacity,Simulator,Environment]
+tags: [Deep Learning,Udacity,Simulator,Environment]
 date: 2018-01-14
 ---
 
@@ -20,7 +20,7 @@ date: 2018-01-14
 
 ----
 # **Install & Build**
-> 이제 우분투에 Unity를 설치하고 Simulator 코드를 받은 후 Build하여 Simulator를 실행시켜보자.
+> 이제 우분투에 Unity를 설치하고 Simulator 코드를 받은 후 빌드하여 Simulator를 실행시켜보자.
 
 ## Step 1: git lfs 설치
 > git lfs란 large file handling을 하기 위해 github에서 만든 것으로, git을 통해 대용량 파일들도 효과적으로 관리할 수 있게 해준다. 대용량 파일을 처음에만 등록해 놓으면 그 이후에는 git를 사용하는 방식대로 버전관리가 가능하므로 사용하는 방법도 간단하다고 할 수 있다.
