@@ -11,7 +11,8 @@ date: 2018-01-14
 
 # **Introduction**
 > Udacity에서 작년 초 [Self-Driving Car NanoDegree Course](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)에서 사용한 Simulator이다. 현재는 Github에 **오픈소스**로 공개가 되어 누구든지 사용할 수 있다. [Unity Engine](https://unity3d.com/kr/) 위에서 동작되는 프로그램이므로 Unity 지식이 있다면 자신의 원하는대로 커스터마이즈가 가능하다는 장점이 있다.
-[Ref: Udacity Simulator Github Page](https://github.com/udacity/self-driving-car-sim)
+> 
+> [Ref: Udacity Simulator Github Page](https://github.com/udacity/self-driving-car-sim)
 
 ----
 # **Environment**
@@ -31,8 +32,8 @@ date: 2018-01-14
 2. 압축을 풀고 Downloads 디렉토리로 들어간다
 ```
 cd ~/Downloads/git-lfs-2.3.4/
+# Warning: git-lfs의 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다
 ```
-`Warning: git-lfs의 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다`
 
 3. install.sh을 실행하여 설치를 진행한다
 ```
