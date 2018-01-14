@@ -33,7 +33,7 @@ date: 2018-01-14
 
         ```
         cd ~/Downloads/git-lfs-2.3.4/
-
+        
         # Warning: git-lfs의 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다
         ```
 
