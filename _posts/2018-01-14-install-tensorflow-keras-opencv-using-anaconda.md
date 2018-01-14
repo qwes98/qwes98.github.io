@@ -71,7 +71,7 @@ conda env create -f environment.yml
 # Use TensorFlow with GPU
 conda env create -f environment-gpu.yml
 ```
-s
+
 ## Step 3: 가상환경 실행
 > 설치는 모두 완료되었다. Tensorflow, Keras, Opencv를 사용하기 위해서는 가상환경을 실행시켜야 한다.
 
