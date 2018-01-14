@@ -32,8 +32,7 @@ date: 2018-01-14
 2. 압축을 풀고 Downloads 디렉토리로 들어간다
 ```python
 cd ~/Downloads/git-lfs-2.3.4/
-    
-# Warning: git-lfs의 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다
+# Warning: git-lfs 최신 Release 버전에 따라 디렉토리 이름은 다를 수 있다
 ```
 
 3. install.sh을 실행하여 설치를 진행한다
