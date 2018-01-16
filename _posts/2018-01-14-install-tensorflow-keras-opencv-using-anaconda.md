@@ -5,7 +5,7 @@ categories: [Deep Learning]
 excerpt: " "
 comments: true
 share: true
-tags: [Deep Learning,Tensorflow,Keras,Opencv,Anaconda]
+tags: [Deep Learning,Tensorflow,Keras,Opencv,Anaconda,Kasa Project]
 date: 2018-01-14
 ---
 

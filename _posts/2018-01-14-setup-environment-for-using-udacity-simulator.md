@@ -5,7 +5,7 @@ categories: [Deep Learning]
 excerpt: " "
 comments: true
 share: true
-tags: [Deep Learning,Udacity,Simulator,Environment]
+tags: [Deep Learning,Udacity,Simulator,Environment,Kasa Project]
 date: 2018-01-14
 ---
 
