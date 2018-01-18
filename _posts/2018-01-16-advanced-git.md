@@ -22,14 +22,38 @@ date: 2018-01-16
 ## 새로운 Branch를 Pull 하기
 > github에 여러 branch가 있다면 작업하고 싶은 branch를 별도로 pull을 해주어야 로컬 환경에서 작업이 가능하다. 기본적으로는 clone이나 pull을 하면 master branch만 가져오게 된다.
 
-1. 원격 저장소(github)의 새로운 branch를 로컬 환경과 연결시킨다.
+1. 먼저 원격 저장소(github) branch에 대한 정보를 업데이트한다
 ```python
-git pull origin newbranch
-# origin은 원격저장소 이름이고, newbranch는 새로운 branch 이름이다
-# 이 작업이 끝나면 origin/newbranch라는 원격 branch가 로컬 환경에 만들어진다
+git remote update
+```
+
+2. 원격 저장소의 branch들중 가져올 branch를 확인한다
+```python
+git branch -r
+# 원격 저장소의 branch들을 보여준다
+# git branch -a
+# 로컬, 원격 저장소의 모든 branch를 보여준다
 ``` 
 
-2. 원격 branch에 새로운 로컬 branch를 연결시킨다.
+3. 원격 branch를 새로운 로컬 branch로 가져온다.
 ```python
-git branch -f newbranch origin/newbranch
+git checkout -t origin/remote-branch-name
+# git checkout -t [원격 저장소 이름]/[원격 branch 이름]
+# 만약 가져올 branch의 로컬 이름을 바꾸고 싶다면 아래 명령어 사용
+# git checkout -b [새로운 로컬 branch 이름] [원격 저장소 이름]/[원격 branch 이름]
+```
+
+## 원격 branch로 checkout 하기 
+> github에서 가져오지 않은 branch가 있는데, 로컬 저장소에 내려 받기보다는 간단한 확인 및 테스트를 해보고 싶은 경우에 원격 branch로 checkout를 할 수 있다.
+
+1. 원격 branch에 접근한다
+```python
+git checkout [원격 저장소 이름]/[원격 branch 이름]
+# "You are in 'detached HEAD' state"라는 메시지를 볼 수 있다
+```
+
+2. 확인 및 테스트가 끝나면 다른 로컬 branch로 이동한다
+```python
+git checkout [로컬 branch 이름]
+# 확인 및 테스트 도중 변경사항이 사라진다
 ```
