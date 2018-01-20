@@ -1,0 +1,110 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+    Plugin 'gmarik/Vundle.vim'
+    Plugin 'tpope/vim-fugitive'
+    "fugitive.vim
+    Plugin 'L9'
+    Plugin 'wincent/command-t.git'
+    "Plugin 'file:///home/gmarik/path/to/plugin'
+    Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+    "Plugin 'user/L9', {'name': 'newL9'}
+    Plugin 'scrooloose/nerdtree'
+    "The NERD tree
+    Plugin 'scrooloose/syntastic'
+    "Syntastic
+    Plugin 'easymotion/vim-easymotion'
+    "EasyMotion
+   	Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+   	"vim-airline
+   	Plugin 'taglist.vim'
+    "taglist.vim
+    Plugin 'MarcWeber/vim-addon-mw-utils'
+    Plugin 'tomtom/tlib_vim'
+    Plugin 'garbas/vim-snipmate'
+    "filetype plugin on
+    "vim-snipmate
+   	Plugin 'wesleyche/srcexpl'
+    "srcexpl
+    Plugin 'ctrlpvim/ctrlp.vim'
+	"ctrlp
+   	Plugin 'AutoComplPop'
+  	"AutoComplPop
+    Plugin 'townk/vim-autoclose'
+	"Autoclose
+   	call vundle#end()            " required
+    filetype plugin indent on    " required
+    "
+    " Brief help
+    " :PluginList          - list configured plugins
+    " :PluginInstall(!)    - install (update) plugins
+    " :PluginSearch(!) foo - search (or refresh cache first) for foo
+    " :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
+    " see :h vundle for more details or wiki for FAQ
+"----------------------------------------------------------------------------   
+" NERD Tree를 왼쪽에 생성
+
+let NERDTreeWinPos = "left"
+
+" NERD Tree는 F7키. Tag List는 F8키. SrcExpl F9에 매칭.
+
+nmap <F7> :NERDTree<CR>
+
+nmap <F8> :TlistToggle<CR>
+
+nmap <F9> :SrcExplToggle<CR>
+filetype on
+
+" Tag list가 사용하는 ctags의 경로 설정
+
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+
+let Tlist_Inc_Winwidth = 0
+
+let Tlist_Exit_OnlyWindow = 0
+
+let Tlist_Auto_Open = 0
+
+" Tag list 창을 오른쪽으로 생성
+
+let Tlist_Use_Right_Window = 1
+"-------------------------------------------------------------------------
+" vi 실행시 number line 생성
+
+set nu
+
+" 자동 들여쓰기
+
+set ai
+set cindent
+
+" 일반모드에서 / 검색시 하이라이팅
+
+set hlsearch
+
+" 일반모드에서 / 검색시 대소문자 구분하지 않음
+
+set ignorecase
+
+" Tab 관련 설정. 일반적으로 가장 많이 쓰이는 tabstop 4, shiftwidth 4
+
+set tabstop=4
+
+set shiftwidth=4
+
+" Thema
+
+colo evening
+"colo darkblue
+"-------------------------------------------------------------------
+" for vim-airline
+let g:airline#extensions#tabline#enabled = 1 " turn on buffer list
+let g:airline_theme='hybrid'
+set laststatus=2 " turn on bottom bar
+
+"map
+map <F2> la<space>{<CR><CR><Esc>ka<Tab>
