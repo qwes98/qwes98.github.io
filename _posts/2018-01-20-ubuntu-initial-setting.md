@@ -61,7 +61,7 @@ sudo apt-get install git
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-5. .vimrc파일을 자신의 홈 디렉토리에 만들어 [vimrc](https://qwes98.github.io\assets\posts\20180120\vimrc) 내용을 복사하고 저장한다
+5. .vimrc파일을 자신의 홈 디렉토리에 만들어 [vimrc](https://qwes98.github.io\assets\posts\20180120\vimrc.html) 내용을 복사하고 저장한다
 
 6. Plugin을 설치한다
 ```python
@@ -84,7 +84,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
 sudo apt-get update
 sudo apt-get install ros-indigo-desktop-full
-rosdep update	
+rosdep update
 sudo rosdep init
 ```
 
