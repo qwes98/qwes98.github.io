@@ -114,7 +114,7 @@ source ~/.bashrc && source devel/setup.bash
 ## Capslock을 Esc로 바꾸기
 > Capslock을 Esc로 바꾸어보자.
 
-1. gnome-tweak-tool 설치
+1. gnome-tweak-tool를 설치한다
 ```python
 sudo apt-get install gnome-tweak-tool
 ```
@@ -137,10 +137,12 @@ sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 ```
 
-3. numix 설치 후 실행시켜 thema를 바꾼다
+3. numix를 설치한다
 ```python
 sudo apt-get install numix-gtk-theme numix-icon-theme
 ```
+
+4. Ubuntu Software Center에 들어가 unity tweak tool 설치 후 실행한다
 
 ## Tensorflow & jupyter 설치
 > Tensorflow와 jupyter를 설치해보자.
