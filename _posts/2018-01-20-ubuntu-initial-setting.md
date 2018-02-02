@@ -25,7 +25,7 @@ date: 2018-01-20
 
 1. ibus-hangul을 설치한다
 ```python
-sudo apt-get install ibus ibus-setup
+sudo apt-get install ibus ibus-hangul
 ```
 
 2. ibus-setup-hangul에 들어가 `start in hangul mode`을 체크한다
@@ -37,6 +37,8 @@ ibus-setup-hangul
 ```python
 ibus restart
 ```
+
+4. System Settings-Text Entry에 들어가 `Korean (Hangul) (IBus)`를 추가하고 Switch key를 설정한다
 
 ## Vim 설치 및 환경설정
 > Vim을 설치한 후 환경설정을 해보자.
