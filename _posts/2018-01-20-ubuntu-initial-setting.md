@@ -124,8 +124,8 @@ sudo apt-get install gnome-tweak-tool
 gnome-tweak-tool
 ```
 
-## Thema 바꾸기
-> Ubuntu의 thema를 바꾸어보자.
+## Thema 바꾸기 & Workpace 설정하기
+> Unity Tweak Tool을 이용하여 Ubuntu의 thema를 바꾸고 Ubuntu Workspace를 설정해보자.
 
 1. numix에 대한 ppa를 추가하자
 ```python
@@ -144,16 +144,22 @@ sudo apt-get install numix-gtk-theme numix-icon-theme
 
 4. Ubuntu Software Center에 들어가 unity tweak tool 설치 후 실행한다
 
+5. Apperance 항목에서 theme 설정을 한다
+
+6. Window Manager 항목에서 Ctrl+s,up,down으로 설정한다
+
+7. 기본 Ubuntu Setting-Keyboard-Shortcut 에서 Navigation-Switch Workspace 항목을 Ctrl+left,right으로 설정한다
+
 ## Tensorflow & jupyter 설치
 > Tensorflow와 jupyter를 설치해보자.
 > 만약 tensorflow뿐만 아니라 Keras, Opencv도 설치하고 싶다면 [Anaconda를 이용한 Tensorflow, Keras, Opencv 설치](https://qwes98.github.io/articles/2018-01/install-tensorflow-keras-opencv-using-anaconda)를 참고해서 설치하자.
-> 
+>
 > GPU 버전 설치는 조금 다르다. [여기](http://www.popit.kr/tensorflow-install-ubuntu16)를 참고하자
 
 1. 관련된 패키지를 설치한다
 ```python
 sudo apt-get install python3-pip python3-dev python-virtualenv python3-matplotlib
-``` 
+```
 
 2. 의존성 문제 해결을 위해 가상환경을 구축한다
 ```python
