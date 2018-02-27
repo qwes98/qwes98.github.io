@@ -67,9 +67,10 @@ git checkout [로컬 branch 이름]
 
 1. 현재 작업 내용을 stash한다
 ```python
-git stash
+git stash save "~"
 # Working directory가 깨끗해진다
 # 이 경우에는 tracked 파일만 stash된다. untracked 파일까지 stash하고 싶다면 -u 옵션을 추가하자
+# 임의의 이름으로 저장하고 싶을때는 git stash 라고 명령하면 된다
 ```
 
 2. stash한 내용을 불러오기 위해 stash 리스트를 확인한다
