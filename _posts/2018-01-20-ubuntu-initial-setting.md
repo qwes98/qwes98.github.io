@@ -63,7 +63,7 @@ sudo apt-get install git
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-5. .vimrc파일을 자신의 홈 디렉토리에 만들어 [vimrc](https://qwes98.github.io\assets\posts\20180120\vimrc.html) 내용을 복사하고 저장한다
+5. .vimrc파일을 자신의 홈 디렉토리에 만들어 [vimrc](https://qwes98.github.io\assets\posts\20180120\vimrc.txt) 내용을 복사하고 저장한다
 
 6. Plugin을 설치한다
 ```python

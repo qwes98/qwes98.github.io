@@ -1,7 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-    <body>
-    <xmp>
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -112,6 +108,3 @@ set laststatus=2 " turn on bottom bar
 
 "map
 map <F2> la<space>{<CR><CR><Esc>ka<Tab>
-    </xmp>
-    </body>
-</html>
